@@ -21,8 +21,13 @@ app.put("/api/endpoint", function(request, response){
     const string = request.query.names;
 
     // converting to an array
-    const words = string.split(',');
-
+    const words = string.split(',').map(capitalize);
+    
+    //capitalize first letter of words
+    function capitalize(str) {
+        return str.charAt(0).toUpperCase() + str.slice(1);
+    }
+    
     // sort the array elements
     words.sort();
 
