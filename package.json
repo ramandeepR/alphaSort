@@ -1,0 +1,30 @@
+{
+  "name": "tinywhale",
+  "version": "1.0.0",
+  "description": "assignment test for sorting query params based on aplha orders",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramandeepR/alphaSort.git"
+  },
+  "keywords": [
+    "query",
+    "params",
+    "Aplha",
+    "sort",
+    "assigment"
+  ],
+  "author": "ramandeep",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramandeepR/alphaSort/issues"
+  },
+  "homepage": "https://github.com/ramandeepR/alphaSort#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1"
+  }
+}
